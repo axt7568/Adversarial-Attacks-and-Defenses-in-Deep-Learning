@@ -128,21 +128,3 @@ model.fit(x_adversarial_train, y_adversarial_train,
 # Evaluating the Adversarial Trained Model
 print("Defended accuracy on adversarial images:", model.evaluate(x=x_adversarial_test, y=y_adversarial_test, verbose=0))
 print("Defended accuracy on regular images:", model.evaluate(x=x_test, y=y_test, verbose=0))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
